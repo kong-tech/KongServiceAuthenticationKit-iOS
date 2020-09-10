@@ -8,12 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		402B67FD2509E0AF0023FB85 /* KongServiceAuthenticationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 402B67FB2509E0AF0023FB85 /* KongServiceAuthenticationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		402B68042509E0CF0023FB85 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 402B68032509E0CF0023FB85 /* README.md */; };
+		402B68242509E2890023FB85 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68062509E2880023FB85 /* CustomButton.swift */; };
+		402B68252509E2890023FB85 /* ServiceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68082509E2880023FB85 /* ServiceType.swift */; };
+		402B68262509E2890023FB85 /* KongServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68092509E2880023FB85 /* KongServiceManager.swift */; };
+		402B68272509E2890023FB85 /* KongServiceLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B680B2509E2880023FB85 /* KongServiceLoginViewController.swift */; };
+		402B68282509E2890023FB85 /* KongServiceLoginViewController+Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B680C2509E2880023FB85 /* KongServiceLoginViewController+Action.swift */; };
+		402B68292509E2890023FB85 /* KongServiceLoginViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B680D2509E2880023FB85 /* KongServiceLoginViewController+UI.swift */; };
+		402B682A2509E2890023FB85 /* KongServiceLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B680E2509E2880023FB85 /* KongServiceLoginController.swift */; };
+		402B682B2509E2890023FB85 /* TokenProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68112509E2880023FB85 /* TokenProvider.swift */; };
+		402B682C2509E2890023FB85 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68142509E2880023FB85 /* APIResponse.swift */; };
+		402B682D2509E2890023FB85 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68162509E2880023FB85 /* HttpRequest.swift */; };
+		402B682E2509E2890023FB85 /* HttpRequest+Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68172509E2880023FB85 /* HttpRequest+Options.swift */; };
+		402B682F2509E2890023FB85 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68192509E2880023FB85 /* API.swift */; };
+		402B68302509E2890023FB85 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B681B2509E2880023FB85 /* Constant.swift */; };
+		402B68312509E2890023FB85 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B681D2509E2880023FB85 /* Logger.swift */; };
+		402B68322509E2890023FB85 /* UITraitCollection+DarkModeVersioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B681F2509E2880023FB85 /* UITraitCollection+DarkModeVersioning.swift */; };
+		402B68332509E2890023FB85 /* UIView+SafeAreaVersioningAnchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68202509E2880023FB85 /* UIView+SafeAreaVersioningAnchor.swift */; };
+		402B68342509E2890023FB85 /* GetMeUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402B68232509E2880023FB85 /* GetMeUseCase.swift */; };
+		402B68382509E2F60023FB85 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 402B68372509E2F60023FB85 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		402B67F82509E0AF0023FB85 /* KongServiceAuthenticationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KongServiceAuthenticationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		402B67FB2509E0AF0023FB85 /* KongServiceAuthenticationKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KongServiceAuthenticationKit.h; sourceTree = "<group>"; };
 		402B67FC2509E0AF0023FB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		402B68032509E0CF0023FB85 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		402B68062509E2880023FB85 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		402B68082509E2880023FB85 /* ServiceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceType.swift; sourceTree = "<group>"; };
+		402B68092509E2880023FB85 /* KongServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KongServiceManager.swift; sourceTree = "<group>"; };
+		402B680B2509E2880023FB85 /* KongServiceLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KongServiceLoginViewController.swift; sourceTree = "<group>"; };
+		402B680C2509E2880023FB85 /* KongServiceLoginViewController+Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KongServiceLoginViewController+Action.swift"; sourceTree = "<group>"; };
+		402B680D2509E2880023FB85 /* KongServiceLoginViewController+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KongServiceLoginViewController+UI.swift"; sourceTree = "<group>"; };
+		402B680E2509E2880023FB85 /* KongServiceLoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KongServiceLoginController.swift; sourceTree = "<group>"; };
+		402B68112509E2880023FB85 /* TokenProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenProvider.swift; sourceTree = "<group>"; };
+		402B68142509E2880023FB85 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		402B68162509E2880023FB85 /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		402B68172509E2880023FB85 /* HttpRequest+Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HttpRequest+Options.swift"; sourceTree = "<group>"; };
+		402B68192509E2880023FB85 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		402B681B2509E2880023FB85 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		402B681D2509E2880023FB85 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		402B681F2509E2880023FB85 /* UITraitCollection+DarkModeVersioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITraitCollection+DarkModeVersioning.swift"; sourceTree = "<group>"; };
+		402B68202509E2880023FB85 /* UIView+SafeAreaVersioningAnchor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+SafeAreaVersioningAnchor.swift"; sourceTree = "<group>"; };
+		402B68232509E2880023FB85 /* GetMeUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMeUseCase.swift; sourceTree = "<group>"; };
+		402B68352509E2A90023FB85 /* KongServiceAuthenticationKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = KongServiceAuthenticationKit.podspec; sourceTree = "<group>"; };
+		402B68372509E2F60023FB85 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +69,9 @@
 		402B67EE2509E0AF0023FB85 = {
 			isa = PBXGroup;
 			children = (
+				402B68352509E2A90023FB85 /* KongServiceAuthenticationKit.podspec */,
+				402B68372509E2F60023FB85 /* LICENSE.md */,
+				402B68032509E0CF0023FB85 /* README.md */,
 				402B67FA2509E0AF0023FB85 /* KongServiceAuthenticationKit */,
 				402B67F92509E0AF0023FB85 /* Products */,
 			);
@@ -46,10 +88,139 @@
 		402B67FA2509E0AF0023FB85 /* KongServiceAuthenticationKit */ = {
 			isa = PBXGroup;
 			children = (
+				402B68052509E2880023FB85 /* Components */,
+				402B681A2509E2880023FB85 /* Constant */,
+				402B68212509E2880023FB85 /* Domain */,
+				402B68072509E2880023FB85 /* Interface */,
+				402B680F2509E2880023FB85 /* Repository */,
+				402B681C2509E2880023FB85 /* Utils */,
 				402B67FB2509E0AF0023FB85 /* KongServiceAuthenticationKit.h */,
 				402B67FC2509E0AF0023FB85 /* Info.plist */,
 			);
 			path = KongServiceAuthenticationKit;
+			sourceTree = "<group>";
+		};
+		402B68052509E2880023FB85 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				402B68062509E2880023FB85 /* CustomButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		402B68072509E2880023FB85 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				402B68082509E2880023FB85 /* ServiceType.swift */,
+				402B68092509E2880023FB85 /* KongServiceManager.swift */,
+				402B680A2509E2880023FB85 /* KongServiceLoginViewController */,
+				402B680E2509E2880023FB85 /* KongServiceLoginController.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		402B680A2509E2880023FB85 /* KongServiceLoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				402B680B2509E2880023FB85 /* KongServiceLoginViewController.swift */,
+				402B680C2509E2880023FB85 /* KongServiceLoginViewController+Action.swift */,
+				402B680D2509E2880023FB85 /* KongServiceLoginViewController+UI.swift */,
+			);
+			path = KongServiceLoginViewController;
+			sourceTree = "<group>";
+		};
+		402B680F2509E2880023FB85 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				402B68102509E2880023FB85 /* RemoteRepository */,
+				402B68122509E2880023FB85 /* LocalRepository */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		402B68102509E2880023FB85 /* RemoteRepository */ = {
+			isa = PBXGroup;
+			children = (
+				402B68112509E2880023FB85 /* TokenProvider.swift */,
+			);
+			path = RemoteRepository;
+			sourceTree = "<group>";
+		};
+		402B68122509E2880023FB85 /* LocalRepository */ = {
+			isa = PBXGroup;
+			children = (
+				402B68132509E2880023FB85 /* APIResponse */,
+				402B68152509E2880023FB85 /* HttpRequest */,
+				402B68182509E2880023FB85 /* API */,
+			);
+			path = LocalRepository;
+			sourceTree = "<group>";
+		};
+		402B68132509E2880023FB85 /* APIResponse */ = {
+			isa = PBXGroup;
+			children = (
+				402B68142509E2880023FB85 /* APIResponse.swift */,
+			);
+			path = APIResponse;
+			sourceTree = "<group>";
+		};
+		402B68152509E2880023FB85 /* HttpRequest */ = {
+			isa = PBXGroup;
+			children = (
+				402B68162509E2880023FB85 /* HttpRequest.swift */,
+				402B68172509E2880023FB85 /* HttpRequest+Options.swift */,
+			);
+			path = HttpRequest;
+			sourceTree = "<group>";
+		};
+		402B68182509E2880023FB85 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				402B68192509E2880023FB85 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		402B681A2509E2880023FB85 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				402B681B2509E2880023FB85 /* Constant.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		402B681C2509E2880023FB85 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				402B681D2509E2880023FB85 /* Logger.swift */,
+				402B681E2509E2880023FB85 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		402B681E2509E2880023FB85 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				402B681F2509E2880023FB85 /* UITraitCollection+DarkModeVersioning.swift */,
+				402B68202509E2880023FB85 /* UIView+SafeAreaVersioningAnchor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		402B68212509E2880023FB85 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				402B68222509E2880023FB85 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		402B68222509E2880023FB85 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				402B68232509E2880023FB85 /* GetMeUseCase.swift */,
+			);
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,6 +292,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402B68382509E2F60023FB85 /* LICENSE.md in Resources */,
+				402B68042509E0CF0023FB85 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +304,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402B682A2509E2890023FB85 /* KongServiceLoginController.swift in Sources */,
+				402B68342509E2890023FB85 /* GetMeUseCase.swift in Sources */,
+				402B682E2509E2890023FB85 /* HttpRequest+Options.swift in Sources */,
+				402B682D2509E2890023FB85 /* HttpRequest.swift in Sources */,
+				402B68242509E2890023FB85 /* CustomButton.swift in Sources */,
+				402B682B2509E2890023FB85 /* TokenProvider.swift in Sources */,
+				402B68292509E2890023FB85 /* KongServiceLoginViewController+UI.swift in Sources */,
+				402B68252509E2890023FB85 /* ServiceType.swift in Sources */,
+				402B68262509E2890023FB85 /* KongServiceManager.swift in Sources */,
+				402B68282509E2890023FB85 /* KongServiceLoginViewController+Action.swift in Sources */,
+				402B68302509E2890023FB85 /* Constant.swift in Sources */,
+				402B68272509E2890023FB85 /* KongServiceLoginViewController.swift in Sources */,
+				402B68332509E2890023FB85 /* UIView+SafeAreaVersioningAnchor.swift in Sources */,
+				402B68322509E2890023FB85 /* UITraitCollection+DarkModeVersioning.swift in Sources */,
+				402B68312509E2890023FB85 /* Logger.swift in Sources */,
+				402B682F2509E2890023FB85 /* API.swift in Sources */,
+				402B682C2509E2890023FB85 /* APIResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +458,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KongServiceAuthenticationKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -276,8 +467,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongtech.ios.KongServiceAuthenticationKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -292,6 +484,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = KongServiceAuthenticationKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,8 +493,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kongtech.ios.KongServiceAuthenticationKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
